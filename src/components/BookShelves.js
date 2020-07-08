@@ -1,5 +1,5 @@
 import React from 'react'
-import './App.css'
+import '../App.css'
 import Book from './Book.js'
 import {Link} from 'react-router-dom';
 import PropTypes from 'prop-types'
@@ -14,7 +14,7 @@ class BookShelves extends React.Component {
 
   render () {
     const {bookShelves, viewableBookShelves, updateBookShelf} = this.props
-    
+
     return (
       <div className="list-books-content">
         <div className="list-books">

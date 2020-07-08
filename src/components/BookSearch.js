@@ -1,8 +1,8 @@
 import React from 'react'
-import './App.css'
+import '../App.css'
 import {Link} from 'react-router-dom'
 import Book from './Book.js'
-import * as BooksAPI from './BooksAPI'
+import * as BooksAPI from '../BooksAPI'
 import PropTypes from 'prop-types'
 
 class BookSearch extends React.Component {
