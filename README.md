@@ -5,8 +5,9 @@ This is the first project for Udacity's React Fundamentals Nanodegree course. [S
 ## To View Project
 
 To Launch this project on your local machine:
-
+* Download [node](https://nodejs.org/en/)
 * Install the react package: `npm install -g create-react-app`
 * Clone this repo or download files as a zip
+* Install npm `npm install`
 * Navigate to the project directory and run `npm start`
 * View app in your browser at: localhost:3000
